@@ -1,4 +1,9 @@
-/* @import "tailwindcss"; */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:opsz@5..1200&family=Raleway&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-playfair: "Playfair Display", serif;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
