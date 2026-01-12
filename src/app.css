@@ -1,6 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:opsz@5..1200&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:opsz@5..1200&family=Raleway:wght@100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-playfair-display: "Playfair Display", serif;
+  --font-raleway: "Raleway", sans-serif;
+  --tracking-wide: 0.1rem;
+  --tracking-wider: 0.2rem;
+  --tracking-widest: 0.25rem;
+  --color-gray: #666;
 }
