@@ -1,4 +1,4 @@
-<nav class="flex justify-between uppercase p-5 font-playfair">
+<nav class="flex justify-between uppercase p-5 font-playfair-display">
   <div class="">
     <h2>Untitled Furniture</h2>
   </div>
