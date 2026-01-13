@@ -1,5 +1,5 @@
 <div
-  class="mb-5 flex h-150 justify-center bg-[url(/hero.jpg)] bg-cover bg-fixed bg-center"
+  class="mb-10 flex h-150 justify-center bg-[url(/hero.jpg)] bg-cover bg-fixed bg-center"
 >
   <div class="self-center text-center text-white uppercase">
     <div class="font-raleway tracking-[0.5rem]">
@@ -8,7 +8,7 @@
     </div>
     <div class="font-playfair-display">
       <button
-        class="text-gray cursor-pointer bg-white px-3 py-2 text-lg tracking-wide uppercase transition-all duration-300 hover:px-5 hover:text-black"
+        class="cursor-pointer bg-white px-3 py-2 text-lg tracking-wide text-black uppercase transition-all duration-300 hover:px-5"
         >Get a Quote</button
       >
     </div>
