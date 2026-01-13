@@ -1,3 +1,12 @@
+<script>
+  const navLinks = [
+    { href: "#top", label: "Home" },
+    { href: "#top", label: "About" },
+    { href: "#top", label: "Portfolio" },
+    { href: "#top", label: "Contact" },
+  ];
+</script>
+
 <nav
   class="font-playfair-display mx-20 my-5 flex justify-between text-lg uppercase"
 >
@@ -5,9 +14,10 @@
     <h2 class="tracking-widest">Untitled Furniture</h2>
   </div>
   <div class="text-gray tracking-wide">
-    <a href="#top" class="mx-1 hover:text-black">Home</a>
-    <a href="#top" class="mx-1 hover:text-black">About</a>
-    <a href="#top" class="mx-1 hover:text-black">Portfolio</a>
-    <a href="#top" class="mx-1 hover:text-black">Contact</a>
+    {#each navLinks as { href, label }}
+      <a {href} class="mx-1 transition-colors duration-300 hover:text-black"
+        >{label}</a
+      >
+    {/each}
   </div>
 </nav>
