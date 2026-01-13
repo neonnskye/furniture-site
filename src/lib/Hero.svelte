@@ -5,8 +5,9 @@
       <h3 class="mb-5 text-3xl font-light">Wood & Iron Works</h3>
     </div>
     <div class="font-playfair-display">
-      <a href="#top" class="bg-white px-3 py-2 text-lg tracking-wide text-black"
-        >Get a Quote</a
+      <button
+        class="text-gray cursor-pointer bg-white px-3 py-2 text-lg tracking-wide uppercase transition-all duration-300 hover:px-5 hover:text-black"
+        >Get a Quote</button
       >
     </div>
   </div>
