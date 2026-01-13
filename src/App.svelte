@@ -4,6 +4,8 @@
   import About from "./lib/About.svelte";
 </script>
 
-<Navbar />
-<Hero />
-<About />
+<main class="mx-20">
+  <Navbar />
+  <Hero />
+  <About />
+</main>
