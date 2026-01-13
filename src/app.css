@@ -9,3 +9,15 @@
   --tracking-widest: 0.25rem;
   --color-gray: #666;
 }
+
+@layer base {
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+  }
+
+  /* Chrome, Edge, Safari */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+}
