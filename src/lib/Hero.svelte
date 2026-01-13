@@ -1,4 +1,6 @@
-<div class="mx-20 flex h-150 justify-center bg-[url(/hero.jpg)] bg-center">
+<div
+  class="mx-20 flex h-150 justify-center bg-[url(/hero.jpg)] bg-cover bg-fixed bg-center"
+>
   <div class="self-center text-center text-white uppercase">
     <div class="font-raleway tracking-[0.5rem]">
       <h2 class="mb-5 text-5xl font-semibold">Untitled Furniture</h2>
