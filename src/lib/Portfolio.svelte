@@ -5,13 +5,15 @@
   const images = [bedImage, tableImage, stairImage];
 </script>
 
-<section>
+<section class="mx-auto mb-10 text-center">
   <div>
-    <h2>Potfolio</h2>
+    <h2 class="font-playfair-display mb-5 text-2xl tracking-wide uppercase">
+      Potfolio
+    </h2>
   </div>
-  <div>
+  <div class="grid grid-cols-3 gap-4">
     {#each images as image}
-      <img src={image} alt="" />
+      <img src={image} alt="" class="aspect-square w-full object-cover" />
     {/each}
   </div>
 </section>
