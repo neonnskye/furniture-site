@@ -13,7 +13,13 @@
   </div>
   <div class="grid grid-cols-3 gap-4">
     {#each images as image}
-      <img src={image} alt="" class="aspect-square w-full object-cover" />
+      <div class="overflow-hidden">
+        <img
+          src={image}
+          alt=""
+          class="aspect-square w-full cursor-pointer object-cover transition-transform duration-300 hover:scale-105"
+        />
+      </div>
     {/each}
   </div>
 </section>
