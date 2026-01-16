@@ -1,7 +1,5 @@
-<section class="mx-auto mb-10 w-180 text-center" id="about">
-  <h2 class="font-playfair-display mb-5 text-2xl tracking-wide uppercase">
-    About Us
-  </h2>
+<section class="centered-container w-180" id="about">
+  <h2 class="section-heading">About Us</h2>
   <p class="font-raleway">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor
     imperdiet enim sed scelerisque. Vivamus pulvinar ultrices neque. Proin

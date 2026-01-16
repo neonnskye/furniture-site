@@ -5,10 +5,8 @@
   const images = [bedImage, tableImage, stairImage];
 </script>
 
-<section class="mx-auto mb-10 text-center" id="gallery">
-  <h2 class="font-playfair-display mb-5 text-2xl tracking-wide uppercase">
-    Gallery
-  </h2>
+<section class="centered-container" id="gallery">
+  <h2 class="section-heading">Gallery</h2>
   <div class="grid grid-cols-3 gap-4">
     {#each images as image}
       <div class="overflow-hidden">

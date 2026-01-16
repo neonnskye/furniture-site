@@ -21,3 +21,11 @@
     display: none;
   }
 }
+
+.section-heading {
+  @apply font-playfair-display mb-5 text-2xl tracking-wide uppercase;
+}
+
+.centered-container {
+  @apply mx-auto mb-10 text-center;
+}
