@@ -22,8 +22,10 @@
     {#each offerings as { title, image }}
       <div class="flex flex-col">
         <div class="self-center">
-          <img src={image} alt={title} />
-          <h3 class="font-playfair text-center text-xl">{title}</h3>
+          <div class="mx-20 my-5"><img src={image} alt={title} /></div>
+          <h3 class="font-playfair-display text-center text-lg tracking-wide">
+            {title}
+          </h3>
         </div>
       </div>
     {/each}
