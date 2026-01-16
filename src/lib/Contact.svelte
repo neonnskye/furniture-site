@@ -1,7 +1,7 @@
-<section class="mx-auto mb-10 w-180 text-center">
+<section class="mx-auto mb-10 w-180 text-center" id="contact">
   <div>
     <h2 class="font-playfair-display mb-5 text-2xl tracking-wide uppercase">
-      Contact
+      Contact Us
     </h2>
   </div>
   <div class="font-raleway">
