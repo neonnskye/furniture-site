@@ -3,6 +3,7 @@
 
 @theme {
   --font-playfair-display: "Playfair Display", serif;
+  --font-playfair: "Playfair", serif;
   --font-raleway: "Raleway", sans-serif;
   --tracking-wide: 0.1rem;
   --tracking-wider: 0.2rem;
