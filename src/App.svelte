@@ -2,7 +2,7 @@
   import Navbar from "./lib/Navbar.svelte";
   import Hero from "./lib/Hero.svelte";
   import About from "./lib/About.svelte";
-  import Portfolio from "./lib/Portfolio.svelte";
+  import Gallery from "./lib/Gallery.svelte";
   import Contact from "./lib/Contact.svelte";
 </script>
 
@@ -10,6 +10,6 @@
   <Navbar />
   <Hero />
   <About />
-  <Portfolio />
+  <Gallery />
   <Contact />
 </main>
