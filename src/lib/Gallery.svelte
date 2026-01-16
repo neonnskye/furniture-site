@@ -1,7 +1,7 @@
 <script lang="ts">
-  import bedImage from "/src/assets/bed.jpg";
-  import tableImage from "/src/assets/table.jpg";
-  import stairImage from "/src/assets/stairs.jpg";
+  import bedImage from "/src/assets/photos/bed.jpg";
+  import tableImage from "/src/assets/photos/table.jpg";
+  import stairImage from "/src/assets/photos/stairs.jpg";
   const images = [bedImage, tableImage, stairImage];
 </script>
 

@@ -53,5 +53,5 @@ yarn-error.log*
 /.env.*
 
 # User
-photos/
+/photos/
 todo.txt
